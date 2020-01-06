@@ -1,8 +1,0 @@
-File from: [dev/img/photo-5.png]
-
-File to: [prod/img/photo-5.png]
-
-Compression algorithm: [pngquant]
-
-Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-5.png dev/img/photo-5.png
-  error: failed writing image to prod/img/photo-5.png (16)
