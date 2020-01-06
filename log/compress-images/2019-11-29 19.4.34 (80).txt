@@ -1,0 +1,8 @@
+File from: [dev/img/013.png]
+
+File to: [prod/img/013.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/013.png dev/img/013.png
+  error: 'prod/img/013.png' exists; not overwriting

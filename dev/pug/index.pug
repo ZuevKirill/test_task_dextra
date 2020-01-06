@@ -1,0 +1,240 @@
+include bemto/bemto
+include block/country
+
+
+doctype html
+html
+  head(lang="ru")
+    include layout/__head
+  body.index
+    include layout/__header
+    +b.container
+      +b('main').main
+        +b.filter#country_filters
+          +e.BUTTON.activ(data-filter="*")
+            |Все страны
+          +e.BUTTON(data-filter=".culture")
+            |культура
+          +e.BUTTON(data-filter=".extreme")
+            |экстрим
+          +e.BUTTON(data-filter=".atmosphere")
+            |атмосфера
+          +e.BUTTON(data-filter=".people")
+            |Люди
+        +b.grid-country#country_grid
+          block country
+              +country({
+                "country":
+                  [
+                    {
+                      "title": "Cuba",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/001.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all people",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "Russia",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/002.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all extreme",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "Latin America",
+                      "big": "1",
+                      "img": "img/big001.jpg",
+                      "group": "all people",
+                      "text": [
+                                "Honduras",
+                                "Columbia",
+                                "Panama",
+                                "Brazil",
+                                "Peru"
+                              ],
+                    },
+                    { 
+                      "title": "England",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/003.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all extreme",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "Norway",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/004.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all culture atmosphere",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "Switzerland",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/005.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all culture people",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "China",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/006.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all extreme culture",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "Germany",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/007.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all culture atmosphere",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "Japan",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/008.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all extreme peole",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "Australia",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/009.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all extreme atmosphere",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "India",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/010.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all culture people",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "Finland",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/011.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all extreme peple",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    { 
+                      "title": "New Zealand",
+                      "text": "Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!",
+                      "img": "img/012.jpg",
+                      "smal": "img/small001.jpg",
+                      "large": "img/large001.jpg",
+                      "group": "all atmosphere people",
+                      "video": "S_dfq9rFWAE"
+                    },
+                    
+                  ],
+              })
+    include layout/__footer  
+    include layout/__scripts
+    script(src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js")
+    script.
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        loop: true,
+        effect: 'fade',
+
+        navigation: {
+          nextEl: '.item-country__next',
+          
+          prevEl: '.item-country__previous',
+        },
+      });
+
+      var lightbox = GLightbox();
+      var lightboxVideo = GLightbox({
+        selector: 'glightbox1',
+      });
+      // external js: isotope.pkgd.js
+        // init Isotope
+        var iso = new Isotope( '.grid-country', {
+          itemSelector: '.item-country',
+          layoutMode: 'masonry',
+          masonry: {
+            columnWidth: 320,
+          },
+          cellsByRow: {
+            columnWidth: 640,
+            rowHeight: 440
+          },
+          masonryHorizontal: {
+            rowHeight: 0
+          },
+          cellsByColumn: {
+            columnWidth: 640,
+            rowHeight: 440
+          }
+        });
+
+        // filter functions
+        var filterFns = {
+          // show if number is greater than 50
+          numberGreaterThan50: function( itemElem ) {
+            var number = itemElem.querySelector('.number').textContent;
+            return parseInt( number, 10 ) > 50;
+          },
+          // show if name ends with -ium
+          ium: function( itemElem ) {
+            var name = itemElem.querySelector('.name').textContent;
+            return name.match( /ium$/ );
+          }
+        };
+
+        // bind filter button click
+        var filtersElem = document.querySelector('.filter');
+        filtersElem.addEventListener( 'click', function( event ) {
+          // only work with buttons
+          if ( !matchesSelector( event.target, 'button' ) ) {
+            return;
+          }
+          var filterValue = event.target.getAttribute('data-filter');
+          // use matching filter function
+          filterValue = filterFns[ filterValue ] || filterValue;
+          iso.arrange({ filter: filterValue });
+        });
+
+        // change is-checked class on buttons
+        var buttonGroups = document.querySelectorAll('.filter');
+        for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+          var buttonGroup = buttonGroups[i];
+          radioButtonGroup( buttonGroup );
+        }
+
+        function radioButtonGroup( buttonGroup ) {
+          buttonGroup.addEventListener( 'click', function( event ) {
+            // only work with buttons
+            if ( !matchesSelector( event.target, 'button' ) ) {
+              return;
+            }
+            buttonGroup.querySelector('.filter__activ').classList.remove('filter__activ');
+            event.target.classList.add('filter__activ');
+          });
+        }
+
+
+      

@@ -1,0 +1,184 @@
+File from: [dev/img/photo-4.png]
+
+File to: [prod/img/photo-4.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-4.png dev/img/photo-4.png
+  error: 'prod/img/photo-4.png' exists; not overwriting
+File from: [dev/img/photo-3.png]
+
+File to: [prod/img/photo-3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-3.png dev/img/photo-3.png
+  error: 'prod/img/photo-3.png' exists; not overwriting
+File from: [dev/img/photo-2.png]
+
+File to: [prod/img/photo-2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-2.png dev/img/photo-2.png
+  error: 'prod/img/photo-2.png' exists; not overwriting
+File from: [dev/img/photo-4.png]
+
+File to: [prod/img/photo-4.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-4.png dev/img/photo-4.png
+  error: 'prod/img/photo-4.png' exists; not overwriting
+File from: [dev/img/photo-6.png]
+
+File to: [prod/img/photo-6.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-6.png dev/img/photo-6.png
+  error: 'prod/img/photo-6.png' exists; not overwriting
+File from: [dev/img/photo-3.png]
+
+File to: [prod/img/photo-3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-3.png dev/img/photo-3.png
+  error: 'prod/img/photo-3.png' exists; not overwriting
+File from: [dev/img/photo-2.png]
+
+File to: [prod/img/photo-2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-2.png dev/img/photo-2.png
+  error: 'prod/img/photo-2.png' exists; not overwriting
+File from: [dev/img/photo-6.png]
+
+File to: [prod/img/photo-6.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-6.png dev/img/photo-6.png
+  error: 'prod/img/photo-6.png' exists; not overwriting
+File from: [dev/img/photo-4.png]
+
+File to: [prod/img/photo-4.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-4.png dev/img/photo-4.png
+  error: 'prod/img/photo-4.png' exists; not overwriting
+File from: [dev/img/photo-3.png]
+
+File to: [prod/img/photo-3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-3.png dev/img/photo-3.png
+  error: 'prod/img/photo-3.png' exists; not overwriting
+File from: [dev/img/photo-2.png]
+
+File to: [prod/img/photo-2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-2.png dev/img/photo-2.png
+  error: 'prod/img/photo-2.png' exists; not overwriting
+File from: [dev/img/photo-2.png]
+
+File to: [prod/img/photo-2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-2.png dev/img/photo-2.png
+  error: 'prod/img/photo-2.png' exists; not overwriting
+File from: [dev/img/photo-4.png]
+
+File to: [prod/img/photo-4.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-4.png dev/img/photo-4.png
+  error: 'prod/img/photo-4.png' exists; not overwriting
+File from: [dev/img/photo-4.png]
+
+File to: [prod/img/photo-4.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-4.png dev/img/photo-4.png
+  error: 'prod/img/photo-4.png' exists; not overwriting
+File from: [dev/img/photo-4.png]
+
+File to: [prod/img/photo-4.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-4.png dev/img/photo-4.png
+  error: 'prod/img/photo-4.png' exists; not overwriting
+File from: [dev/img/photo-6.png]
+
+File to: [prod/img/photo-6.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-6.png dev/img/photo-6.png
+  error: failed writing image to prod/img/photo-6.png (16)
+File from: [dev/img/photo-3.png]
+
+File to: [prod/img/photo-3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-3.png dev/img/photo-3.png
+  error: failed writing image to prod/img/photo-3.png (16)
+File from: [dev/img/photo-2.png]
+
+File to: [prod/img/photo-2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-2.png dev/img/photo-2.png
+  error: failed writing image to prod/img/photo-2.png (16)
+File from: [dev/img/photo-2.png]
+
+File to: [prod/img/photo-2.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-2.png dev/img/photo-2.png
+  error: failed writing image to prod/img/photo-2.png (16)
+File from: [dev/img/photo-3.png]
+
+File to: [prod/img/photo-3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-3.png dev/img/photo-3.png
+  error: failed writing image to prod/img/photo-3.png (16)
+File from: [dev/img/photo-3.png]
+
+File to: [prod/img/photo-3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-3.png dev/img/photo-3.png
+  error: failed writing image to prod/img/photo-3.png (16)
+File from: [dev/img/photo-3.png]
+
+File to: [prod/img/photo-3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-3.png dev/img/photo-3.png
+  error: failed writing image to prod/img/photo-3.png (16)
+File from: [dev/img/photo-3.png]
+
+File to: [prod/img/photo-3.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/photo-3.png dev/img/photo-3.png
+  error: failed writing image to prod/img/photo-3.png (16)

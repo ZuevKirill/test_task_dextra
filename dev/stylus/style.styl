@@ -1,0 +1,107 @@
+//@import "helpers/mixins.styl"
+//@import "helpers/vars.styl"
+
+@import "helpers/reset.styl"
+@import "helpers/fonts.styl"
+@import "helpers/grid.styl"
+
+@import "libs/swiper.styl"
+@import "libs/glightbox.styl"
+// @import "libs/perfect-scrollbar.styl"
+// @import "libs/choices.styl"
+//@import "libs/lightgallery.styl"
+
+// @import "helpers/common.styl"
+// @import "helpers/animations.styl"
+
+// @import "layout/buttons.styl"
+@import "layout/header.styl"
+// @import "layout/menu.styl"
+@import "layout/footer.styl"
+//@import "layout/popup.styl"
+// @import "layout/fakecheckbox.styl"
+// @import "layout/text.styl"
+// @import "layout/breadcrumbs.styl"
+// @import "layout/pagination.styl"
+
+// @import "blocks/socials.styl"
+
+
+
+// Blocks  add
+@import "../pug/block/country.styl"
+
+body
+    font-family: 'NewBaskervilleC'
+
+.main
+    display flex
+    flex-direction column
+    align-items center
+.filter
+    font-family: 'PT Sans', sans-serif;
+    font-size 12px
+    display: inline-flex
+    
+    
+    width 100%
+    padding 0 13%
+    padding-bottom 20px
+    padding-top 65px
+    button
+        color: #9fa2a8
+        letter-spacing 1px
+        text-transform: uppercase
+        margin-right: 30px
+        padding-bottom: 6px
+        &:hover
+            color: #242526
+            cursor pointer
+
+    &__activ
+        font-weight: bold
+        color: #242526 !important; 
+        padding-bottom: 4px
+        border-bottom: 2px solid #242526
+        
+        
+.grid-country
+    width 2240px
+    @media screen and (max-width: 2500px)
+        width 1920px
+        @media screen and (max-width: 1920px)
+            width 1600px
+            @media screen and (max-width: 1500px)
+                width 1280px
+                @media screen and (max-width: 1024px)
+                    width 960px
+                    @media screen and (max-width: 767px)
+                        width 640px
+                        @media screen and (max-width: 320px)
+                                width: 320px
+
+.swiper-container 
+    width 300px
+    height 200px
+.grid-country__big.swier-container
+    width 600px
+    height 400px
+.gprev.gbtn,
+.gnext.gbtn
+    display: none !important
+.goverlay
+    background rgba(20,26,31,0.9)
+ .glightbox-clean .gclose
+    background-color: 
+    rgba(255, 255, 255, .5);
+    width: 43px;
+    height: 43px;
+    background-position: -55px 7px;
+    border-radius: 50%;   
+    & svg
+        display none
+.plyr__video-wrapper.plyr__video-embed
+    width 680px
+    height 420px
+.gslide iframe, .gslide video
+    width 100%

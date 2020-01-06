@@ -1,0 +1,24 @@
+File from: [dev/img/008.png]
+
+File to: [prod/img/008.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/008.png dev/img/008.png
+  error: failed writing image to prod/img/008.png (16)
+File from: [dev/img/006.png]
+
+File to: [prod/img/006.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/006.png dev/img/006.png
+  error: failed writing image to prod/img/006.png (16)
+File from: [dev/img/009.png]
+
+File to: [prod/img/009.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/kirillzuev/Downloads/boilerplate-master 2/node_modules/pngquant-bin/vendor/pngquant --quality=30-60 -o prod/img/009.png dev/img/009.png
+  error: failed writing image to prod/img/009.png (16)

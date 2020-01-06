@@ -1,0 +1,85 @@
+.item-country
+    overflow hidden
+    background #031524
+    position relative
+    margin-bottom 20px
+    &__control
+        position absolute
+        bottom 20px
+        right 20px
+        z-index 2
+    &__previous
+    &__next
+        margin-left 16px
+        width 22px
+        height 22px
+        opacity 0.25
+        cursor pointer
+        &:hover 
+            opacity 1   
+    &__slider
+        //width 1200px
+        display: inline-flex
+        height: 100%;
+    &__slide-first
+    &__slide-text
+    &__slide-image
+    &__slide-video
+        width 100%
+        height 100%
+        display flex
+        justify-content center
+        align-items center
+    &__ico-play
+    &__ico-zoom  
+        width 42px
+        opacity .8
+        cursor pointer
+        position: absolute;
+        pointer-events: none;
+        &:hover
+            opacity 1    
+    &__title
+        color: #fff
+        font-size 36px
+    &__text
+        font-family: 'PT Sans', sans-serif;
+        width 300px
+        padding 40px 20px
+        height 100%
+        background #313336
+        color #fff
+        font-size 14px
+        line-height 22px
+    &__title-smal
+        color #fff
+        position absolute
+        bottom 20px
+        left 20px
+        font-size 24px
+    &__img
+        height: 205px;
+        width: 300px;
+.grid-country__big
+    grid-row 1 / 3
+    grid-column 3 / 5
+    width: 620px !important;
+    height: 420px !important;
+    .item-country
+        &__control
+        &__slide-text
+        &__slide-image
+        &__slide-video
+            display none
+        &__slide-first
+            display flex
+            align-items baseline
+            color #fff
+            padding-left 30px
+            flex-direction column
+            ul 
+                padding-left 45px
+                list-style decimal
+                font-size 20px
+                li 
+                    padding-top 30px

@@ -1,0 +1,29 @@
+mixin country(data)
+
+    each item in data.country
+        +b.item-country(class=typeof item.big === "undefined" ? 'swiper-container '  + item.group + ' ' : '__big '  + item.group + ' ')#country_item
+          +e.control
+            +e.previous(src="img/prev_slide.svg")
+            +e.next(src="img/next_slide.svg")
+          +e.slider.swiper-wrapper  
+            +e.slide-first.swiper-slide(style='background: linear-gradient(to right, rgba(3, 21, 36, .6), rgba(3, 21, 36, .6)), url(' +  item.img  + ')')
+              +e.title= item.title
+              if item.big == 1
+                +e.UL
+                  - var n = 0;
+                    while n < item.text.length
+                      +e.LI.listitemtext= item.text[n++]
+
+            +e.slide-text.swiper-slide
+              +e.text= item.text 
+              +e.title-smal= item.title 
+            +e.slide-image.swiper-slide(style="background: url(img/001.jpg)")
+              +e.link(href="img/large001.jpg" class="glightbox")
+                +e.img(src="img/small001.jpg" alt= item.title)
+              +e.ico-zoom(src="img/icon_zoom.svg")
+              +e.title-smal= item.title 
+            +e.slide-video.swiper-slide
+              +e.link(href='https://www.youtube-nocookie.com/embed/'+ item.video class='glightbox1')
+                +e.img(src='https://img.youtube.com/vi/' + item.video + '/0.jpg' alt="image")
+              +e.ico-play(src="img/icon_play.svg")
+              +e.title-smal= item.title 
